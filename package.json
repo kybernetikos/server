@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Global server command, will serve from cwd.",
   "main": "index.js",
+  "bin": "./bin/server-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +15,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/briandipalma/server/issues"
+  },
+  "dependencies": {
+    "node-static": "~0.7.3",
+    "commander": "~2.1.0"
   }
 }
