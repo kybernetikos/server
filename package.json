@@ -2,10 +2,9 @@
   "name": "server",
   "version": "0.0.0",
   "description": "Global server command, will serve from cwd.",
-  "main": "index.js",
-  "bin": "./bin/server-cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./lib/server.js",
+  "bin": {
+  	"server": "./bin/server-cli.js"
   },
   "repository": {
     "type": "git",
