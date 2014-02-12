@@ -1,6 +1,6 @@
 To install
 
-`npm -g briandipalma/server`
+`npm install -g briandipalma/server`
 
 To run
 
